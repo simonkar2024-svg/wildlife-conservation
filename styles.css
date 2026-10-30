@@ -1,0 +1,140 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(220, 90, 90);
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    padding: 15px 35px;
+    color: black;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 1600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: yellow;
+}
+
+
+.navbar ul{
+     display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 26px;   
+
+}
+.welcome-text{
+    max-width: 750px;
+    margin: 0 auto;
+    
+}
+.welcome-text h3{
+    color: #3C6955;
+    font-size: 45px;
+    font-weight: 1000px;
+    margin-bottom: 12px;
+}
+.welcome-text p{
+    color: goldenrod;
+    line-height: 2.0;
+    max-width: 650px;
+    font-size: 25px;
+    justify-content: center;
+}
+.home-btn{
+    font-size:50px ;
+    color: aquamarine;
+    font-style: oblique;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+    font-weight: 800px;
+}
+.welcome-image img{
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+
+}
+.welcome-image{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align:center ;
+    margin-top: 10px;
+}
+.aboutus{
+    padding: 40px 20px;
+    colour:white;
+}
+.about-container{
+    margin:0 auto;
+
+}
+h2, h3, h4{
+    color: rgb(6, 76, 6);
+    margin-top: 0;
+}
+.body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #fcfbf7;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.hero-section{
+    background-color: saddlebrown;
+    text-align: center;
+}
+.about-container ul{
+    font-size: 20px;
+
+}
+.rescue-image{
+    border-radius: 12px;
+    margin-top: 30px;
+}
+.mission{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+   
+}
+.vision{
+    font-size: 25px;
+    text-align: center;
+}
+.ourwildlife img{
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+}
+.contact-section{
+    max-width: 600px;
+    border-radius: 12px;
+    padding: 25px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+
+.footer-container p{
+    font-size: 20px;
+    color: rgb(209, 94, 94);
+}
+.footer-socials{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
